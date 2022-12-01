@@ -1,0 +1,15 @@
+C:\Users\26424\Documents\AdventOfCode\adventCode22\bin\Debug\net7.0\adventCode22.exe
+C:\Users\26424\Documents\AdventOfCode\adventCode22\bin\Debug\net7.0\adventCode22.deps.json
+C:\Users\26424\Documents\AdventOfCode\adventCode22\bin\Debug\net7.0\adventCode22.runtimeconfig.json
+C:\Users\26424\Documents\AdventOfCode\adventCode22\bin\Debug\net7.0\adventCode22.dll
+C:\Users\26424\Documents\AdventOfCode\adventCode22\bin\Debug\net7.0\adventCode22.pdb
+C:\Users\26424\Documents\AdventOfCode\adventCode22\obj\Debug\net7.0\adventCode22.csproj.AssemblyReference.cache
+C:\Users\26424\Documents\AdventOfCode\adventCode22\obj\Debug\net7.0\adventCode22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\26424\Documents\AdventOfCode\adventCode22\obj\Debug\net7.0\adventCode22.AssemblyInfoInputs.cache
+C:\Users\26424\Documents\AdventOfCode\adventCode22\obj\Debug\net7.0\adventCode22.AssemblyInfo.cs
+C:\Users\26424\Documents\AdventOfCode\adventCode22\obj\Debug\net7.0\adventCode22.csproj.CoreCompileInputs.cache
+C:\Users\26424\Documents\AdventOfCode\adventCode22\obj\Debug\net7.0\adventCode22.dll
+C:\Users\26424\Documents\AdventOfCode\adventCode22\obj\Debug\net7.0\refint\adventCode22.dll
+C:\Users\26424\Documents\AdventOfCode\adventCode22\obj\Debug\net7.0\adventCode22.pdb
+C:\Users\26424\Documents\AdventOfCode\adventCode22\obj\Debug\net7.0\adventCode22.genruntimeconfig.cache
+C:\Users\26424\Documents\AdventOfCode\adventCode22\obj\Debug\net7.0\ref\adventCode22.dll
