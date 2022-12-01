@@ -1,66 +1,20 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace HelloWorld
+namespace advent
 {
     class Program
     {
-        public static bool test = false;
+        public static bool test = true;
 
         static void Main(string[] args)
         {
+            var day = new day1();
             var input = GetInput();
 
-            part1(input);
-            Console.WriteLine("///////////////////");
-            part2(input);
-        }
-
-        static void part1(string[] input)
-        {
-                        var elves = new List<int>();
-            elves.Add(0);
-            
-            for (int i = 0; i < input.Count(); i++)
-            {
-                if(input[i].Equals(""))
-                {
-                    elves.Add(0);
-                }
-                else
-                {
-                  elves[elves.Count-1] += Int32.Parse(input[i]);
-                }
-            }
-
-            var highestCalories = elves.Max();
-
-            Console.WriteLine(highestCalories);
-        }
-
-        static void part2(string[] input)
-        {
-            
-            var elves = new List<int>();
-            elves.Add(0);
-            
-            for (int i = 0; i < input.Count(); i++)
-            {
-                if(input[i].Equals(""))
-                {
-                    elves.Add(0);
-                }
-                else
-                {
-                  elves[elves.Count-1] += Int32.Parse(input[i]);
-                }
-            }
-
-            elves.Sort();
-
-            var highest3 = elves.Skip(elves.Count-3);
-
-            var total = highest3.Sum();
-            Console.WriteLine(total);
+            Console.WriteLine("Part 1:");
+            day.part1(input);
+            Console.WriteLine("Part 2:");
+            day.part2(input);
         }
 
         static string[] GetInput([CallerFilePath] string filePath = "")
@@ -68,5 +22,6 @@ namespace HelloWorld
             var fileNameEnding = test ? "_test.txt" : ".txt";
             return System.IO.File.ReadAllLines(System.IO.Path.Combine(System.IO.Directory.GetParent(filePath).FullName, "Input", String.Concat("inputDay1", fileNameEnding)));
         }
+
     }
 }
